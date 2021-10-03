@@ -31,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         backgroundColor: Colors.purple,
         centerTitle: true,
-        title: Text('My First App'),
+        title: Text('My First App Abdul Basir'),
       ),
       body: Column(
         children: [
