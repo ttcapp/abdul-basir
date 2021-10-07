@@ -64,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Image.network("https://i.imgur.com/fHyEMsl.jpg"),
               ),
               Container(
+
                 height: 200,
                 width: 350,
                 child: Image.asset("assets/images/flower.jpg"),
