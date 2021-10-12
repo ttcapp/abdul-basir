@@ -60,12 +60,14 @@ class _MyHomePageState extends State<MyHomePage> {
                       padding: const EdgeInsets.all(8.0),
                       child: Container(
                         decoration: BoxDecoration(
+
                           image: DecorationImage(image: NetworkImage(imgSrc1), fit: BoxFit.cover),
                           border: Border.all(color: Colors.purple, width: 4),
                           borderRadius: BorderRadius.all(Radius.circular(30)),
                         ),
                           height: imgHeight,
                           width: imgWidth,
+
                       ),
                     ),
                     Padding(
@@ -147,7 +149,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.only(top: 10, left: 5),
                 child: RaisedButton(
                   child: Text(btnText2),
                   color: btnColor1,
